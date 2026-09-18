@@ -11,5 +11,5 @@ kubectl get pods,svc -n todoapp -o wide
 ```
 
 ```bash
-kubectl get all,cm,secret,ing -A that should output to output.log
+kubectl get all,cm,secret,ing -A > output.log
 ```

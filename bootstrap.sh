@@ -1,3 +1,3 @@
 #!/bin/bash
 
-helm install kube2py helm-charts/todoapp
+helm install todoapp .infrastructure/helm-chart/todoapp
